@@ -141,8 +141,17 @@ export default function Home() {
 
         <div className="text-center mb-8">
           <h1 className="text-3xl font-semibold text-pink-600 mb-2 flex items-center justify-center gap-2">
-            <ShoppingBasket className="w-8 h-8" />
+          <img
+            src="/mainikon.png"
+            alt="アイコン"
+            className="w-20 h-20"
+          />
             買い物リスト
+          <img
+            src="/mainikon2.jpg"
+            alt="アイコン"
+            className="w-20 h-20"
+          />
           </h1>
         </div>
 
@@ -246,9 +255,9 @@ export default function Home() {
                     variant="ghost"
                     size="sm"
                     onClick={() => deleteItem(item.id)}
-                    className="text-gray-400 hover:text-pink-500 hover:bg-pink-50"
+                    className="text-gray-400 border border-gray-400 hover:text-pink-500 hover:bg-pink-50 hover:border-transparent"
                   >
-                    <X className="w-4 h-4" />
+                    買ったよ
                   </Button>
                 </motion.div>
               ))
