@@ -144,13 +144,13 @@ export default function Home() {
           <img
             src="/mainikon.png"
             alt="アイコン"
-            className="w-20 h-20"
+            className="w-10 h-10"
           />
             買い物リスト
           <img
             src="/mainikon2.jpg"
             alt="アイコン"
-            className="w-20 h-20"
+            className="w-10 h-10"
           />
           </h1>
         </div>
