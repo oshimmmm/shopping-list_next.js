@@ -21,24 +21,24 @@ export default function Home() {
 
   // 画像パスのリストを定義
   const images = [
-    "/hatiware1.JPG",
-    "/hatiware2.JPG",
-    "/momonga.PNG",
-    "/sanninn.JPG",
-    "/sanninnde.JPG",
-    "/si-sa-1.JPG",
-    "/si-sa-2.JPG",
-    "/si-sa-3.PNG",
-    "/tiikawa1.JPG",
-    "/tiikawa2.JPG",
+    "/hatiware1.jpg",
+    "/hatiware2.jpg",
+    "/momonga.png",
+    "/sanninn.jpg",
+    "/sanninnde.jpg",
+    "/si-sa-1.jpg",
+    "/si-sa-2.jpg",
+    "/si-sa-3.png",
+    "/tiikawa1.jpg",
+    "/tiikawa2.jpg",
     // 他の画像パスを追加
   ];
 
   // 画像パスのリストを定義
   const deleteImages = [
-    "/otukare1.JPG",
-    "/otukare2.PNG",
-    "/otukare3.JPG",
+    "/otukare1.jpg",
+    "/otukare2.png",
+    "/otukare3.jpg",
     // 他の画像パスを追加
   ];
 
